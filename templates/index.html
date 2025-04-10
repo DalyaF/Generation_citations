@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citations des Grands Penseurs</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=EB+Garamond&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="parchment">
+        <div class="container">
+            <h1>Citations des Grands Penseurs</h1>
+            
+            <div class="citation-box">
+                <div class="citation-texte" id="citation-texte">Cliquez sur le bouton pour afficher une citation aléatoire</div>
+                <div class="citation-auteur-section">
+                    <img id="citation-photo" class="auteur-photo" src="{{ url_for('static', filename='images/placeholder.jpg') }}" alt="Auteur">
+                    <div class="citation-auteur" id="citation-auteur"></div>
+                </div>
+            </div>
+            
+            <div class="citation-loader" id="citation-loader"></div>
+            
+            <button class="btn-citation" id="btn-get-citation">Nouvelle Citation</button>
+        </div>
+        
+        <div class="stamp"></div>
+    </div>
+    
+    <div class="footer">
+        Recueil de Sagesse - Anno MMXXV
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
