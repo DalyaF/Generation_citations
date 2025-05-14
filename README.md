@@ -1,7 +1,7 @@
 # Générateur de citations aléatoires avec API locale
 
 ## Présentation
-Ce projet implémente un générateur de citations aléatoires fonctionnant grâce à une API locale développée en Python avec Flask. L'application permet d'afficher dynamiquement des citations via une interface simple et intuitive.
+Ce projet implémente un générateur de citations aléatoires fonctionnant grâce à une API locale développée en Python (Flask). L'application permet d'afficher dynamiquement des citations via une interface simple et intuitive.
 
 ## Caractéristiques techniques
 * **Stack technologique**: Python (Flask)
